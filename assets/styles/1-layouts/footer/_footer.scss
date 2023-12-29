@@ -56,7 +56,7 @@ footer {
 
     p {
       text-align: center;
-      margin: 10px auto 5px !important;
+      margin: 10px auto 5px;
 
       @media (max-width: 480px) {
         text-align: left;
@@ -70,7 +70,6 @@ footer {
       gap: $grid-gap;
       margin: 0 auto 40px;
       justify-content: center;
-      align-items: center;
 
       ul {
         list-style-position: inside;
@@ -113,9 +112,9 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url("/assets/images/logos/open/No_Political_Correctness.svg")
+    background: url("/assets/images/logos/open/kitchensink.png")
         top 30px left 30px repeat,
-      url("/assets/images/logos/open/No_Political_Correctness.smaller.png")
+      url("/assets/images/logos/open/kitchensink.png")
         top 80px left 120px repeat;
     opacity: 0.05;
     background-size: 120px auto;
